@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box;">
+
+    <!-- Navigation Bar -->
+    <header style="background-color: #333; color: #fff; padding: 20px; display: flex; justify-content: space-between; align-items: center;">
+        <div style="font-size: 24px; font-weight: bold;">TravelBloom</div>
+        <nav>
+            <a href="#home" style="color: #fff; text-decoration: none; margin: 0 15px;">Home</a>
+            <a href="#about" style="color: #fff; text-decoration: none; margin: 0 15px;">About Us</a>
+            <a href="#contact" style="color: #fff; text-decoration: none; margin: 0 15px;">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" style="padding: 40px; text-align: center;">
+        <h1>Welcome to TravelBloom</h1>
+        <p>Explore dream destinations around the world with us. Whether you're looking for beaches, temples, or country-specific recommendations, we have it all!</p>
+    </section>
+
+    <!-- Beach Recommendation Section -->
+    <section style="padding: 40px; background-color: #f0f0f0;">
+        <h2 style="text-align: center;">Beach Recommendations</h2>
+        <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+            <img src="beach1.jpg" alt="Beach 1" style="width: 45%; height: 200px; object-fit: cover; border-radius: 8px;">
+            <img src="beach2.jpg" alt="Beach 2" style="width: 45%; height: 200px; object-fit: cover; border-radius: 8px;">
+        </div>
+    </section>
+
+    <!-- Temple Recommendation Section -->
+    <section style="padding: 40px;">
+        <h2 style="text-align: center;">Temple Recommendations</h2>
+        <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+            <img src="temple1.jpg" alt="Temple 1" style="width: 45%; height: 200px; object-fit: cover; border-radius: 8px;">
+            <img src="temple2.jpg" alt="Temple 2" style="width: 45%; height: 200px; object-fit: cover; border-radius: 8px;">
+        </div>
+    </section>
+
+    <!-- Country Recommendation Section -->
+    <section style="padding: 40px; background-color: #f0f0f0;">
+        <h2 style="text-align: center;">Recommendations Based on Country</h2>
+        <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+            <img src="country1.jpg" alt="Country 1" style="width: 45%; height: 200px; object-fit: cover; border-radius: 8px;">
+            <img src="country2.jpg" alt="Country 2" style="width: 45%; height: 200px; object-fit: cover; border-radius: 8px;">
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" style="padding: 40px;">
+        <h2 style="text-align: center;">About Us</h2>
+        <p style="text-align: center; max-width: 600px; margin: 20px auto;">At TravelBloom, we are passionate about exploring the world's beauty. Our mission is to bring the best travel experiences to you, tailored to your interests, whether you love beaches, cultural landmarks, or country-specific destinations.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" style="padding: 40px; background-color: #f0f0f0;">
+        <h2 style="text-align: center;">Contact Us</h2>
+        <form style="max-width: 400px; margin: 20px auto; display: flex; flex-direction: column; gap: 10px;">
+            <label for="email" style="font-size: 16px;">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px;">
+            
+            <label for="message" style="font-size: 16px;">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+            
+            <button type="submit" style="padding: 10px; font-size: 16px; background-color: teal; color: white; border: none; border-radius: 4px; cursor: pointer;">Send</button>
+        </form>
+    </section>
+
+</body>
+</html>
